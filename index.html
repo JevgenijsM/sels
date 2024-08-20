@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placeholder</title>
+    <style>
+        /* Центрирование изображения на странице */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Размер изображения */
+        img {
+            width: 855px; /* Ширина изображения */
+            height: auto; /* Высота автоматически подстраивается под ширину, чтобы сохранить пропорции */
+            max-width: 100%; /* Ограничение на случай, если экран слишком мал */
+        }
+    </style>
 </head>
-<body style="margin: 0;">
-    <img src="SelsPlug_var2.png" alt="Placeholder" style="width: 50%; height: 100vh; object-fit: cover;">
+<body>
+    <img src="SelsPlug_var2.png" alt="Placeholder">
 </body>
 </html>
